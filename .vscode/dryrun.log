@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/root/Projet_Rio'
+gcc -o -g -lpthread -lrt sender.c -o sender -DPEERTOPEER
+gcc -o -g -lpthread -lrt server.c -o server -pthread -DPEERTOPEER
+make: Leaving directory '/root/Projet_Rio'
+ 
